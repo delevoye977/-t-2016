@@ -9,14 +9,11 @@ package tamagotchi_program;
  *
  * @author benedetti 21
  */
-public class Tamagotchi_Program {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) throws Exception {
-        new Jeu();
-        
+public class Personnage extends ObjetAffichable{
+    
+    public Personnage(String nom, double _x, double _y, int width, int height) throws Exception {
+        super(nom, _x, _y, width, height);
     }
+
     
 }
