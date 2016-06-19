@@ -1,6 +1,5 @@
 package tamagotchi_program;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import javax.imageio.ImageIO;
@@ -11,8 +10,7 @@ import javax.imageio.ImageIO;
  * nom Le nom du sprite doit correspondre à un fichier .png Le sprite doit être
  * placé dans un dossier ressource de l'application
  *
- * @author aguidet
- * @author Kevin Glass
+ * @author benedetti 21
  */
 public class SpriteStore {
 
@@ -24,7 +22,7 @@ public class SpriteStore {
     private SpriteStore() throws IOException {
         try {
             //Ici toute les adresses ont été modifier pour la compatibilité cross OS, avec les packages.
-            this.perso = new Sprite(ImageIO.read(Tamagotchi_Program.class.getResource(nomImages.perso.toString())));
+            this.perso = new Sprite(ImageIO.read(Lolotchi_Program.class.getResource(nomImages.perso.toString())));
             
         } catch (IOException e) {
             //gestion d'erreur

@@ -1,0 +1,2 @@
+tamagotchi_program.Horloge$TimerTaskFast
+tamagotchi_program.Horloge

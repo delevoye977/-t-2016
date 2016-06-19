@@ -6,10 +6,8 @@
 package tamagotchi_program;
 
 import java.awt.Graphics;
-import java.io.IOException;
-import javax.swing.ImageIcon;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
+
 
 /**
  *
@@ -35,14 +33,11 @@ public class Fenetre extends JFrame {
         //Initialisation
         this.panelprincipal = new PanelPrincipal(this);
         this.add(this.panelprincipal);
-        /*try {
-            //Récup du background
-            this.setContentPane(new JLabel(new ImageIcon(sprite.getSprite("fond").getImage())));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }*/
+
         //affichage
         this.setVisible(true);
+        
+        //Son d'intro au jeu
         Son s = new Son(nomSons.laser);
         s.jouer();
         

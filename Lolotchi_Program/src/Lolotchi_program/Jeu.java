@@ -9,19 +9,18 @@ package tamagotchi_program;
  *
  * @author benedetti 21
  */
-public enum nomSons {
+public class Jeu {
     
-    laser("laser_Shoot.wav");
+    private final Fenetre fenetre;
     
-    private String nomFichier = "";
-    
-    nomSons(String nomFichier) {
-        this.nomFichier = nomFichier;
+    public Jeu() throws Exception {
+        this.fenetre = new Fenetre();
+        Horloge time = new Horloge(this);
     }
-
-    @Override
-    public String toString() {
-        return "/Ressources/Sons/" + nomFichier;
+    
+    public Fenetre getFenetre() {
+        return this.fenetre;
     }
+    
     
 }

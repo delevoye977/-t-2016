@@ -9,14 +9,14 @@ package tamagotchi_program;
  *
  * @author benedetti 21
  */
-public class Tamagotchi_Program {
+public class Lolotchi_Program {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
+        System.out.println("Lolotchi est un jeu créé par le Copinou Gaming pendant l'été 2016");
         new Jeu();
-        
     }
     
 }

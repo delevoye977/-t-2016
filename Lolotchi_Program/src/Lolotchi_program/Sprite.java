@@ -5,11 +5,10 @@ import java.awt.Image;
 
 /**
  * Une classe représentant un Sprite, c'est à dire une image mouvante (personnage, objet, etc...)
- * @author aguidet
- * @author Kevin Glass
+ * @author benedetti 21
  */
 public class Sprite {
-	private Image image;
+	private final Image image;
 
 	/**
 	 * Crée un nouveau sprite à partir d'une image
@@ -45,6 +44,8 @@ public class Sprite {
 	 * @param g la surface d'affichage
 	 * @param x la position gauche du sprite
 	 * @param y la position haute du sprite
+         * @param width
+         * @param height
 	 */
 	public void draw(Graphics g, int x, int y, int width, int height) {
             g.drawImage(image, x, y, width, height, null);

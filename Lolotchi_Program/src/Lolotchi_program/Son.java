@@ -18,7 +18,7 @@ public class Son extends Thread {
     private static AudioClip s1;//le son créé depuis ton url
  
     public Son(nomSons nom) {
-        u1 = Tamagotchi_Program.class.getResource(nom.toString());
+        u1 = Lolotchi_Program.class.getResource(nom.toString());
         s1 = Applet.newAudioClip(u1);
     }
     
