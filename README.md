@@ -1,4 +1,6 @@
 #== Projet de l'été 2016 ==#
-## 21/05/2016 ##
+#== TAMAGOTCHI ==#
+
+## 19/06/2016 ##
 ****
--Choix du sujet
+-Mise en place
