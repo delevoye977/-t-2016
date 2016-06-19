@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tamagotchi_program;
+package Lolotchi_program;
 
 import java.awt.Graphics;
 import java.util.logging.Level;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tamagotchi_program;
+package Lolotchi_program;
 
 import java.awt.Graphics;
 import javax.swing.JFrame;
@@ -36,6 +36,9 @@ public class Fenetre extends JFrame {
 
         //affichage
         this.setVisible(true);
+        
+        //init du lecteur de clavier
+        this.addKeyListener(new Clavier());
         
         //Son d'intro au jeu
         Son s = new Son(nomSons.laser);

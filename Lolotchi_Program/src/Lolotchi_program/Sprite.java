@@ -1,4 +1,4 @@
-package tamagotchi_program;
+package Lolotchi_program;
 
 import java.awt.Graphics;
 import java.awt.Image;
