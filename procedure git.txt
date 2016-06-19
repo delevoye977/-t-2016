@@ -1,0 +1,34 @@
+Récuperer tout le bordel (MaJ)
+git pull origin master
+(git stash --all)
+
+
+Ajouter mes fichiers -->
+git add --all  (nom des fichiers)
+git commit -m "message"
+git push origin master
+
+
+Si ya des problemes --> ouvrir avec netBeans --> Team Diff to HEAD
+supprimer les trucs chelous
+enregistrer et refaire la procedure
+
+
+
+insert "message" --> echap   :wp
+
+/////////////////
+Pour récuperer tous les fichier et les MaJ
+git pull origin master
+
+si il dit de stash les données avant il faut faire
+git stash --all
+
+
+////////////
+Pour envoyer vos changements
+git add -A
+git commit -m "Message"
+git push origin master
+
+/////////////////////////
