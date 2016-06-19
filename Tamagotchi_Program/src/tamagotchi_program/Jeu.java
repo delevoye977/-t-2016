@@ -9,14 +9,20 @@ package tamagotchi_program;
  *
  * @author benedetti 21
  */
-public class Tamagotchi_Program {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        new Jeu();
-        
+public class Jeu {
+    
+    private final Fenetre fenetre;
+    
+    public Jeu() {
+        fenetre = new Fenetre();
+        //Horloge time = new Horloge(this);
     }
+    
+    
+    
+    
+    
+    
+    
     
 }
