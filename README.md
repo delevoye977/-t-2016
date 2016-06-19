@@ -5,3 +5,4 @@
 ****
 -Mise en place
 L'élément Joules semble poser des difficultés.
+Il apprend
