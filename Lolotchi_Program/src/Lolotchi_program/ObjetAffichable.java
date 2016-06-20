@@ -13,7 +13,7 @@ import java.awt.Graphics;
  */
 public abstract class ObjetAffichable{
 
-    //private String nomSprite;
+    
     private final Sprite sprite;
     private final String nom;
     private double x;
@@ -84,6 +84,11 @@ public abstract class ObjetAffichable{
     public Sprite getSprite() {
         return sprite;
     }
+    
+    public void setSprite(String str) throws Exception {
+        SpriteStore.get().getSprite(str);
+    }
+    
 
     public int getHeight() {
         return height;

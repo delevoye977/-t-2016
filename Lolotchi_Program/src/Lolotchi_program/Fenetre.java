@@ -16,6 +16,8 @@ import javax.swing.JFrame;
 public class Fenetre extends JFrame {
     
     private final PanelPrincipal panelprincipal;
+    private final Panel_HUD_Haut panelHUDHaut;
+    private final Panel_HUD_Bas panelHUDBas;
 
     //SpriteStore
     private final SpriteStore sprite;
@@ -23,16 +25,21 @@ public class Fenetre extends JFrame {
     public Fenetre() throws Exception {
         sprite = SpriteStore.get();
         
-        this.setSize(300, 300);
+        this.setSize(305, 300);
         //Fermeture bah euh à la fermeture...
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //Fenêtre redimensionnable
-        this.setResizable(true);
+        this.setResizable(false);
         //Un titre bien représentatif du jeu
         this.setTitle("Tamagotchi");
         //Initialisation
         this.panelprincipal = new PanelPrincipal(this);
         this.add(this.panelprincipal);
+        this.panelHUDHaut = new Panel_HUD_Haut(this);
+        this.add(this.panelHUDHaut);
+        this.panelHUDBas = new Panel_HUD_Bas(this);
+        this.add(this.panelHUDBas);
+        
 
         //affichage
         this.setVisible(true);
@@ -53,6 +60,8 @@ public class Fenetre extends JFrame {
         
         //Appel des paints filles
         this.panelprincipal.paint(this.panelprincipal.getGraphics());
+        this.panelHUDHaut.paint(this.panelHUDHaut.getGraphics());
+        this.panelHUDBas.paint(this.panelHUDBas.getGraphics());
     }
     
     public PanelPrincipal getPanelPrincipal() {

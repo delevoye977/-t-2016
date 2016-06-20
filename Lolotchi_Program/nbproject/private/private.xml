@@ -3,19 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Clavier.java</file>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/nomSons.java</file>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Jeu.java</file>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/nomImages.java</file>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Personnage.java</file>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/PanelPrincipal.java</file>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Sprite.java</file>
+            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Menu_Toilettes.java</file>
             <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Fenetre.java</file>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Horloge.java</file>
+            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Menu_Jeux.java</file>
             <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/ObjetAffichable.java</file>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Son.java</file>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/SpriteStore.java</file>
-            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Lolotchi_Program.java</file>
+            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Menu_Travail.java</file>
+            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/PanelPrincipal.java</file>
+            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Panel_HUD_Haut.java</file>
+            <file>file:/C:/Users/benedetti%2021/Documents/Projet%20perso/Ete%202016/Tamagotchi/Lolotchi_Program/src/Lolotchi_program/Panel_HUD_Bas.java</file>
         </group>
     </open-files>
 </project-private>

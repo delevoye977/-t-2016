@@ -14,25 +14,21 @@ import javax.swing.JPanel;
  *
  * @author benedetti 21
  */
-public class PanelPrincipal extends JPanel {
+public class Panel_HUD_Bas extends JPanel{
     
     private final Fenetre fenetreMere;
-    private final Personnage perso;
     
-    public PanelPrincipal(Fenetre maman) throws Exception {
+    public Panel_HUD_Bas(Fenetre maman) throws Exception {
         this.fenetreMere = maman;
         this.setVisible(true);   
         
-        
 
         //Dimensions
-        this.setBounds(0, 30, 300, 270);
-        
+        this.setBounds(0, 270, 300, 30);
        
         
         //Transparence
         this.setOpaque(false);
-        this.perso = new Personnage("perso",0,0,50,50);
     }
     
     @Override
@@ -40,14 +36,11 @@ public class PanelPrincipal extends JPanel {
         //Actualisation automatisée
         this.revalidate();
         try {
-            this.perso.draw(g);
+            //this.XXXXXXXX.draw(g);
         } catch (Exception ex) {
             Logger.getLogger(PanelPrincipal.class.getName()).log(Level.SEVERE, null, ex);
         }
 
     }
-    
-    
-    
     
 }
